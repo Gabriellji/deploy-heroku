@@ -4,7 +4,7 @@ const auth = require("../../middleware/auth");
 const { check, validationResult } = require("express-validator");
 
 const User = require("../user/user.model");
-const Event = require("../event/event.model");
+const Event = require("./event.model");
 
 const get = require("../message/message.router");
 
